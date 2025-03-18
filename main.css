@@ -77,6 +77,40 @@ footer {
     padding: 1rem 0;
 }
 
+#pedido {
+    background-color: #e0e0e0;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+#lista-pedido {
+    list-style: none;
+    padding: 0;
+}
+
+#finalizar-pedido {
+    background-color: #ffca28;
+    color: #333;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#contato {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.redes-sociais a {
+    display: inline-block;
+    background-color: #ffca28;
+    color: #333;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    margin: 0.5rem;
+}
 /* Adicionar Media Query para tornar o projeto responsivo */
 @media (min-width: 768px) {
     main{
